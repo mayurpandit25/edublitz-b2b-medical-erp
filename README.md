@@ -18,12 +18,12 @@ A production-grade **Medical Domain B2B ERP** platform for hospitals, distributo
 │ user-service│    │ product-service  │   │  order-service  │
 │  Port: 8081 │    │   Port: 8082     │   │   Port: 8083    │
 │             │    │                  │   │                 │
-│ Auth / JWT  │    │ Inventory/Catalog │   │ Orders/Billing  │
+│ Auth / JWT  │    │ Inventory/Catalog│   │ Orders/Billing  │
 │ Roles/Orgs  │    │ Stock Tracking   │   │ Order Lifecycle │
 └──────┬──────┘    └─────────┬────────┘   └────────┬────────┘
        │                     │                      │
 ┌──────▼─────────────────────▼──────────────────────▼─────────────┐
-│                     MongoDB Atlas                                │
+│                     MongoDB Atlas                               │
 │   users_db          products_db            orders_db            │
 └─────────────────────────────────────────────────────────────────┘
 ```
